@@ -1,0 +1,48 @@
+table, th, td {
+    border: 2px solid black;
+    background-color:lightgray;
+    padding: 10px;
+    margin:100px
+}
+body {
+  background-color: plum;
+}
+h1 {
+  background-color: pink;
+} 
+h3{
+  background-color: pink;
+}
+
+
+
+.img1 img{
+  height:150px;
+  width:150px;
+}
+
+.img3 img{
+  height:150px;
+  width:150px;
+  border:5px red;
+  border-width: 5px;
+  padding:30px;
+  border-style: dashed;
+}
+.img4 img{
+  height:150px;
+  width:150px;
+  border:5px red;
+  border-width: 5px;
+  padding:30px;
+  border-style: dashed;
+}
+
+.img5 img{
+  height:150px;
+  width:150px;
+  border:5px red;
+  border-width: 5px;
+  padding:30px;
+  border-style: dashed;
+}
