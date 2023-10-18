@@ -46,3 +46,52 @@ h3{
   padding:30px;
   border-style: dashed;
 }
+
+.bah {
+text-align:center;
+text-decoration: underline;
+text-transform:uppercase;
+font-family:monospace;
+font-size: 25px;
+}
+
+.link1{
+  background-color:greenyellow;
+  margin: 50px 0px 0px 50px;
+  padding: 5px 10px 5px 10px;
+  color:antiquewhite;
+}
+.link1:hover{
+  background-color:red;
+  margin: 50px 0px 0px 50px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+}
+
+.link2{
+  background-color: black;
+  color:white;
+  margin: 50px 0px 0px 50px;
+  padding: 5px 10px 5px 10px;
+}
+
+.link2:visited{
+  background-color: grey;
+  color:white;
+  margin: 50px 0px 0px 50px;
+  padding: 5px 10px 5px 10px;
+}
+
+.link3{
+  background-color:blue;
+  color:white;
+  margin: 50px 0px 0px 50px;
+  padding: 5px 10px 5px 10px;
+}
+
+.link3:active{
+  background-color:orangered;
+  color:white;
+  margin: 50px 0px 0px 50px;
+  padding: 5px 10px 5px 10px;
+}
