@@ -10,7 +10,7 @@ crossorigin="anonymous">
 </script>
 <title>Personal Portfolio</title>
 </head>
-<body>
+<body class="container">
 <h1>Chelsea Li Hall</h1> 
 <h3> Njit, clh6, Industrial Design</h3> 
 <p>Hi my name is Chelsea Li Hall, I am a 18 year old college freshman at NJIT,
@@ -168,5 +168,128 @@ crossorigin="anonymous">
  </th>
 </div>
 
+  <!--<div >
+    <ul class="nav bg-dark fixed-top justify-content-center">
+         <li class="nav-item"><a href="#" class="nav-link text-light">home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-light">about</a></li>
+         <li class="nav-item"><a href="#" class="nav-link text-light">contact</a></li>
+     </ul>
+ </div>--->
+
+ <div >
+    <ul class="nav bg-dark fixed-top justify-content-center">
+         <li class="nav-item"><a href="#section1" class="nav-link text-light">Section-1</a></li>
+        <li class="nav-item"><a href="#section2" class="nav-link text-light">Section-2</a></li>
+         <li class="nav-item"><a href="#section3" class="nav-link text-light">Section-3</a></li>
+     </ul>
+    </div>
+
+<div id="section1">
+    <p class="bg-danger p-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum corrupti delectus eaque est dolore numquam sapiente temporibus natus possimus consequatur provident ipsam quisquam doloremque, iure excepturi a dicta debitis maxime.</p>
+</div>
+<div id="section2">
+    <p class="bg-info p-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum corrupti delectus eaque est dolore numquam sapiente temporibus natus possimus consequatur provident ipsam quisquam doloremque, iure excepturi a dicta debitis maxime.</p>
+</div>
+<div id="section3">
+    <p class="bg-warning p-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum corrupti delectus eaque est dolore numquam sapiente temporibus natus possimus consequatur provident ipsam quisquam doloremque, iure excepturi a dicta debitis maxime.</p>
+</div>
+
+<div>
+    <form>
+        <input type="text" placeholder="username" class="form-control"> <br>
+        <input type="text" placeholder="email" class="form-control"> <br>
+        <input type="radio" class="form-input -check" name="option"> option-1
+        <input type="radio" class="form-input -check" name="option"> option-2 <br>
+        <input type="checkbox" class="form input-check"> option-1
+        <input type="checkbox" class="form input-check"> option-2
+        <input type="submit" class="btn btn-primary"> 
+    </form>
+</div>
+
+<p id="demo"></p>
+<script> 
+  const x=10
+    const y=20
+    const z = x + y;
+    document.getElementById('demo').innerHTML =
+"The value of z is:" + z;
+</script>
+
+<p id="demo2"></p>
+<script>
+    let t = 5
+    let f= 6
+    let score= 80
+function calculate_Grade(){
+    if (score >= 90) {
+        result = "A"
+    console. log("A grade");
+ } else if (score >= 80 && score <= 89) {
+    console. log("B grade");
+    } else if (score >= 70 && score < 79) {
+    console. log("C grade");
+    } else if (score >= 60 && score <= 69) {
+    console. log("D grade");
+    } else {
+    console. log("F grade");
+    }
+
+    let g= t + f;
+    document.getElementById('demo2').innerHTML =
+"The value of score is:" + result;
+}
+
+ 
+
+
+</script>
+    
+<p>
+    <button id="btn">
+        click here
+    </button>
+</p>
+<!--<p id="para10" onmouseover="changeInfo()">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus pariatur ratione non ex accusantium at totam veritatis a explicabo, autem nam minus quae. Nemo accusantium velit officiis. Voluptas, quaerat corporis.
+</p>-->
+
+<script>
+    <!-- let para = document.getElementById('para10')
+    para.innerHTML="this is a sample text"-->
+
+    let para1 = document.getElementByTag('p')
+    para1[0].innerHTML="this is a sample text"
+
+    function changeInfo(){
+        let para = document.getElementById('para10')
+        para.innerHTML="this is a sample text"
+        para.style.color = "red"
+    }
+    documnet.getElementById('btn').addEventListener("click", changeInfo);
+    let para = document.getElementById('para10')
+    para.innerHTML="lorem"
+        para.style.color = "red"
+</script>
+
+
+<button id="changeTextBtn">
+    Push Me!
+</button>
+
+<p id="disaplaytext">
+    display text
+  </p>
+
+<script>
+    const textchanger = document.getElementById("changeTextBtn");
+    textchanger.addEventListener ("click", changetext);
+
+    function functitan(){
+       const AH = document.getElementById('disaplaytext');
+       AH.innerHTML = 'Hello, JavaScript World!';
+    }
+</script>
+
+<br><br>
 </body>
 </html>
