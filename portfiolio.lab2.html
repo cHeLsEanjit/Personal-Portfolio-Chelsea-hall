@@ -290,6 +290,44 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus pariatur rat
     }
 </script>
 
+<form name="myform">
+	<input type= "text" placeholder = "username" name="username" required>
+<input type= "password" placeholder= "password" name= "password" required>
+	<input type= "submit" onclick="return validateform" onclick='setTimeout(settimer, 3000)'>
+</form>
+
+
+<button onclick='setTimeout(settimer, 3000)'>
+	Click here!
+</button>
+
+
+<script>
+
+	function settimer(){
+        alert("this is a timed event")
+    }
+	
+	function validateform(){
+		let u_name = document.forms['myform']['username'].value
+		let u_password = document.forms['myform']['password'].value
+
+		If (u_password.length < 8)
+            alert('password is too short')
+        }
+
+		If (u_name == ' ' || u_password == ' ');{
+            alert ('username/password is empty, please fill out the input field')
+        }
+        
+		If (u_name !== ' ' && u_password !== ' ');{
+            alert ('successful')
+        }
+
+
+</script>
+
+
 <br><br>
 </body>
 </html>
